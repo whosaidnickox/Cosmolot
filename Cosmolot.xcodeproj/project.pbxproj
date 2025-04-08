@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D103C81A2D9FEFB6003F3649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C8192D9FEFB6003F3649 /* AppDelegate.swift */; };
+		D103C81C2D9FEFB6003F3649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C81B2D9FEFB6003F3649 /* SceneDelegate.swift */; };
+		D103C81E2D9FEFB6003F3649 /* InitialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C81D2D9FEFB6003F3649 /* InitialScreenViewController.swift */; };
+		D103C8212D9FEFB6003F3649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D103C81F2D9FEFB6003F3649 /* Main.storyboard */; };
+		D103C8242D9FEFB6003F3649 /* Cosmolot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D103C8222D9FEFB6003F3649 /* Cosmolot.xcdatamodeld */; };
+		D103C8262D9FEFB8003F3649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D103C8252D9FEFB8003F3649 /* Assets.xcassets */; };
+		D103C8292D9FEFB8003F3649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D103C8272D9FEFB8003F3649 /* LaunchScreen.storyboard */; };
+		D103C8C02D9FF0CC003F3649 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8AB2D9FF0CC003F3649 /* Inter-Bold.otf */; };
+		D103C8C12D9FF0CC003F3649 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8AC2D9FF0CC003F3649 /* Inter-Regular.otf */; };
+		D103C8C32D9FF0CC003F3649 /* Inter-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8AE2D9FF0CC003F3649 /* Inter-SemiBoldItalic.otf */; };
+		D103C8C42D9FF0CC003F3649 /* Inter-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8AF2D9FF0CC003F3649 /* Inter-Thin.otf */; };
+		D103C8C52D9FF0CC003F3649 /* Inter-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B02D9FF0CC003F3649 /* Inter-Light.otf */; };
+		D103C8C62D9FF0CC003F3649 /* Inter-V.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B12D9FF0CC003F3649 /* Inter-V.ttf */; };
+		D103C8C72D9FF0CC003F3649 /* Inter-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B22D9FF0CC003F3649 /* Inter-ExtraLightItalic.otf */; };
+		D103C8C82D9FF0CC003F3649 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B32D9FF0CC003F3649 /* Inter-Medium.otf */; };
+		D103C8C92D9FF0CC003F3649 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B42D9FF0CC003F3649 /* Inter-SemiBold.otf */; };
+		D103C8CA2D9FF0CC003F3649 /* Inter-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B52D9FF0CC003F3649 /* Inter-BlackItalic.otf */; };
+		D103C8CB2D9FF0CC003F3649 /* Inter-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B62D9FF0CC003F3649 /* Inter-MediumItalic.otf */; };
+		D103C8CC2D9FF0CC003F3649 /* Inter-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B72D9FF0CC003F3649 /* Inter-Black.otf */; };
+		D103C8CD2D9FF0CC003F3649 /* Inter-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B82D9FF0CC003F3649 /* Inter-Italic.otf */; };
+		D103C8CE2D9FF0CC003F3649 /* Inter-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8B92D9FF0CC003F3649 /* Inter-ExtraBold.otf */; };
+		D103C8CF2D9FF0CC003F3649 /* Inter-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8BA2D9FF0CC003F3649 /* Inter-ThinItalic.otf */; };
+		D103C8D02D9FF0CC003F3649 /* Inter-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8BB2D9FF0CC003F3649 /* Inter-ExtraLight.otf */; };
+		D103C8D22D9FF0CC003F3649 /* Inter-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8BD2D9FF0CC003F3649 /* Inter-ExtraBoldItalic.otf */; };
+		D103C8D32D9FF0CC003F3649 /* Inter-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8BE2D9FF0CC003F3649 /* Inter-BoldItalic.otf */; };
+		D103C8D42D9FF0CC003F3649 /* Inter-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D103C8BF2D9FF0CC003F3649 /* Inter-LightItalic.otf */; };
+		D103C8D72D9FF6A5003F3649 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C8D62D9FF6A5003F3649 /* AppColors.swift */; };
+		D103C8DA2D9FF75C003F3649 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D103C8D92D9FF75C003F3649 /* IQKeyboardManagerSwift */; };
+		D103C8DD2DA0083F003F3649 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C8DC2DA0083F003F3649 /* Planet.swift */; };
+		D103C8E02DA00D63003F3649 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D103C8DF2DA00D63003F3649 /* SnapKit */; };
+		D103C8E22DA014B9003F3649 /* UIButton + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C8E12DA014B9003F3649 /* UIButton + Ext.swift */; };
+		D103C8E42DA015D0003F3649 /* DetailsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D103C8E32DA015D0003F3649 /* DetailsScreenViewController.swift */; };
+		D194C0832DA40F9300C60476 /* AstronomicalCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194C0822DA40F9300C60476 /* AstronomicalCalculatorViewController.swift */; };
+		D194C0852DA4109D00C60476 /* VelocityCalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194C0842DA4109D00C60476 /* VelocityCalculationViewController.swift */; };
+		D194C0872DA4114800C60476 /* VelocityResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194C0862DA4114800C60476 /* VelocityResultViewController.swift */; };
+		D19A5ABE2DA066AB0045A388 /* SolarMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5ABD2DA066AB0045A388 /* SolarMapViewController.swift */; };
+		D19A5AC02DA104CC0045A388 /* SpaceWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5ABF2DA104CC0045A388 /* SpaceWeatherViewController.swift */; };
+		D19A5AC22DA111160045A388 /* SolarActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5AC12DA111160045A388 /* SolarActivityViewController.swift */; };
+		D19A5AC42DA111310045A388 /* LiveStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5AC32DA111310045A388 /* LiveStatusViewController.swift */; };
+		D19A5AC62DA11A150045A388 /* CosmosWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5AC52DA11A150045A388 /* CosmosWeather.swift */; };
+		D19A5AD72DA2934F0045A388 /* GravitationalCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5AD62DA2934F0045A388 /* GravitationalCalculatorViewController.swift */; };
+		D19A5ADB2DA2A3E00045A388 /* CalculationResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5ADA2DA2A3E00045A388 /* CalculationResultViewController.swift */; };
+		D19A5ADD2DA2A4090045A388 /* CalculationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A5ADC2DA2A4090045A388 /* CalculationsViewController.swift */; };
+		D1ADD4E82DA39C170075046B /* SpaceTimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADD4E72DA39C170075046B /* SpaceTimeListViewController.swift */; };
+		D1ADD4EA2DA39C900075046B /* SpaceTimeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ADD4E92DA39C900075046B /* SpaceTimeDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D103C8162D9FEFB6003F3649 /* Cosmolot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosmolot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D103C8192D9FEFB6003F3649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D103C81B2D9FEFB6003F3649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D103C81D2D9FEFB6003F3649 /* InitialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenViewController.swift; sourceTree = "<group>"; };
+		D103C8202D9FEFB6003F3649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D103C8232D9FEFB6003F3649 /* Cosmolot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cosmolot.xcdatamodel; sourceTree = "<group>"; };
+		D103C8252D9FEFB8003F3649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D103C8282D9FEFB8003F3649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D103C82A2D9FEFB8003F3649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D103C8AB2D9FF0CC003F3649 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		D103C8AC2D9FF0CC003F3649 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		D103C8AE2D9FF0CC003F3649 /* Inter-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		D103C8AF2D9FF0CC003F3649 /* Inter-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.otf"; sourceTree = "<group>"; };
+		D103C8B02D9FF0CC003F3649 /* Inter-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.otf"; sourceTree = "<group>"; };
+		D103C8B12D9FF0CC003F3649 /* Inter-V.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-V.ttf"; sourceTree = "<group>"; };
+		D103C8B22D9FF0CC003F3649 /* Inter-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		D103C8B32D9FF0CC003F3649 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		D103C8B42D9FF0CC003F3649 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		D103C8B52D9FF0CC003F3649 /* Inter-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-BlackItalic.otf"; sourceTree = "<group>"; };
+		D103C8B62D9FF0CC003F3649 /* Inter-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-MediumItalic.otf"; sourceTree = "<group>"; };
+		D103C8B72D9FF0CC003F3649 /* Inter-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.otf"; sourceTree = "<group>"; };
+		D103C8B82D9FF0CC003F3649 /* Inter-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Italic.otf"; sourceTree = "<group>"; };
+		D103C8B92D9FF0CC003F3649 /* Inter-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.otf"; sourceTree = "<group>"; };
+		D103C8BA2D9FF0CC003F3649 /* Inter-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ThinItalic.otf"; sourceTree = "<group>"; };
+		D103C8BB2D9FF0CC003F3649 /* Inter-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.otf"; sourceTree = "<group>"; };
+		D103C8BD2D9FF0CC003F3649 /* Inter-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		D103C8BE2D9FF0CC003F3649 /* Inter-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-BoldItalic.otf"; sourceTree = "<group>"; };
+		D103C8BF2D9FF0CC003F3649 /* Inter-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-LightItalic.otf"; sourceTree = "<group>"; };
+		D103C8D62D9FF6A5003F3649 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		D103C8DC2DA0083F003F3649 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		D103C8E12DA014B9003F3649 /* UIButton + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Ext.swift"; sourceTree = "<group>"; };
+		D103C8E32DA015D0003F3649 /* DetailsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewController.swift; sourceTree = "<group>"; };
+		D194C0822DA40F9300C60476 /* AstronomicalCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomicalCalculatorViewController.swift; sourceTree = "<group>"; };
+		D194C0842DA4109D00C60476 /* VelocityCalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityCalculationViewController.swift; sourceTree = "<group>"; };
+		D194C0862DA4114800C60476 /* VelocityResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityResultViewController.swift; sourceTree = "<group>"; };
+		D19A5ABD2DA066AB0045A388 /* SolarMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarMapViewController.swift; sourceTree = "<group>"; };
+		D19A5ABF2DA104CC0045A388 /* SpaceWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceWeatherViewController.swift; sourceTree = "<group>"; };
+		D19A5AC12DA111160045A388 /* SolarActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarActivityViewController.swift; sourceTree = "<group>"; };
+		D19A5AC32DA111310045A388 /* LiveStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStatusViewController.swift; sourceTree = "<group>"; };
+		D19A5AC52DA11A150045A388 /* CosmosWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosWeather.swift; sourceTree = "<group>"; };
+		D19A5AD62DA2934F0045A388 /* GravitationalCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitationalCalculatorViewController.swift; sourceTree = "<group>"; };
+		D19A5ADA2DA2A3E00045A388 /* CalculationResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationResultViewController.swift; sourceTree = "<group>"; };
+		D19A5ADC2DA2A4090045A388 /* CalculationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsViewController.swift; sourceTree = "<group>"; };
+		D1ADD4E72DA39C170075046B /* SpaceTimeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTimeListViewController.swift; sourceTree = "<group>"; };
+		D1ADD4E92DA39C900075046B /* SpaceTimeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTimeDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D103C8132D9FEFB6003F3649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D103C8DA2D9FF75C003F3649 /* IQKeyboardManagerSwift in Frameworks */,
+				D103C8E02DA00D63003F3649 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D103C80D2D9FEFB6003F3649 = {
+			isa = PBXGroup;
+			children = (
+				D103C8182D9FEFB6003F3649 /* Cosmolot */,
+				D103C8172D9FEFB6003F3649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D103C8172D9FEFB6003F3649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8162D9FEFB6003F3649 /* Cosmolot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D103C8182D9FEFB6003F3649 /* Cosmolot */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8302D9FEFCB003F3649 /* App */,
+				D103C8312D9FEFD0003F3649 /* Controllers */,
+				D103C8322D9FEFDA003F3649 /* Storyboards */,
+				D103C82A2D9FEFB8003F3649 /* Info.plist */,
+				D103C8DB2DA00829003F3649 /* Model */,
+				D103C8D52D9FF693003F3649 /* Components */,
+				D103C8AA2D9FF0CC003F3649 /* Inter */,
+				D103C8332D9FEFE1003F3649 /* UserData */,
+			);
+			path = Cosmolot;
+			sourceTree = "<group>";
+		};
+		D103C8302D9FEFCB003F3649 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8192D9FEFB6003F3649 /* AppDelegate.swift */,
+				D103C81B2D9FEFB6003F3649 /* SceneDelegate.swift */,
+				D103C8252D9FEFB8003F3649 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D103C8312D9FEFD0003F3649 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D103C81D2D9FEFB6003F3649 /* InitialScreenViewController.swift */,
+				D194C0812DA40F7200C60476 /* AstronomicalCalc */,
+				D194C07F2DA40F4D00C60476 /* SpaceMap */,
+				D194C0802DA40F6400C60476 /* SpaceTime */,
+				D19A5AD82DA2A3BD0045A388 /* Weather */,
+				D19A5AD92DA2A3C50045A388 /* GravityCalc */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D103C8322D9FEFDA003F3649 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D103C81F2D9FEFB6003F3649 /* Main.storyboard */,
+				D103C8272D9FEFB8003F3649 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D103C8332D9FEFE1003F3649 /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8222D9FEFB6003F3649 /* Cosmolot.xcdatamodeld */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
+		D103C8AA2D9FF0CC003F3649 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8AB2D9FF0CC003F3649 /* Inter-Bold.otf */,
+				D103C8AC2D9FF0CC003F3649 /* Inter-Regular.otf */,
+				D103C8AE2D9FF0CC003F3649 /* Inter-SemiBoldItalic.otf */,
+				D103C8AF2D9FF0CC003F3649 /* Inter-Thin.otf */,
+				D103C8B02D9FF0CC003F3649 /* Inter-Light.otf */,
+				D103C8B12D9FF0CC003F3649 /* Inter-V.ttf */,
+				D103C8B22D9FF0CC003F3649 /* Inter-ExtraLightItalic.otf */,
+				D103C8B32D9FF0CC003F3649 /* Inter-Medium.otf */,
+				D103C8B42D9FF0CC003F3649 /* Inter-SemiBold.otf */,
+				D103C8B52D9FF0CC003F3649 /* Inter-BlackItalic.otf */,
+				D103C8B62D9FF0CC003F3649 /* Inter-MediumItalic.otf */,
+				D103C8B72D9FF0CC003F3649 /* Inter-Black.otf */,
+				D103C8B82D9FF0CC003F3649 /* Inter-Italic.otf */,
+				D103C8B92D9FF0CC003F3649 /* Inter-ExtraBold.otf */,
+				D103C8BA2D9FF0CC003F3649 /* Inter-ThinItalic.otf */,
+				D103C8BB2D9FF0CC003F3649 /* Inter-ExtraLight.otf */,
+				D103C8BD2D9FF0CC003F3649 /* Inter-ExtraBoldItalic.otf */,
+				D103C8BE2D9FF0CC003F3649 /* Inter-BoldItalic.otf */,
+				D103C8BF2D9FF0CC003F3649 /* Inter-LightItalic.otf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		D103C8D52D9FF693003F3649 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8D62D9FF6A5003F3649 /* AppColors.swift */,
+				D103C8E12DA014B9003F3649 /* UIButton + Ext.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D103C8DB2DA00829003F3649 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8DC2DA0083F003F3649 /* Planet.swift */,
+				D19A5AC52DA11A150045A388 /* CosmosWeather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D194C07F2DA40F4D00C60476 /* SpaceMap */ = {
+			isa = PBXGroup;
+			children = (
+				D103C8E32DA015D0003F3649 /* DetailsScreenViewController.swift */,
+				D19A5ABD2DA066AB0045A388 /* SolarMapViewController.swift */,
+			);
+			path = SpaceMap;
+			sourceTree = "<group>";
+		};
+		D194C0802DA40F6400C60476 /* SpaceTime */ = {
+			isa = PBXGroup;
+			children = (
+				D1ADD4E72DA39C170075046B /* SpaceTimeListViewController.swift */,
+				D1ADD4E92DA39C900075046B /* SpaceTimeDetailsViewController.swift */,
+			);
+			path = SpaceTime;
+			sourceTree = "<group>";
+		};
+		D194C0812DA40F7200C60476 /* AstronomicalCalc */ = {
+			isa = PBXGroup;
+			children = (
+				D194C0822DA40F9300C60476 /* AstronomicalCalculatorViewController.swift */,
+				D194C0842DA4109D00C60476 /* VelocityCalculationViewController.swift */,
+				D194C0862DA4114800C60476 /* VelocityResultViewController.swift */,
+			);
+			path = AstronomicalCalc;
+			sourceTree = "<group>";
+		};
+		D19A5AD82DA2A3BD0045A388 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				D19A5ABF2DA104CC0045A388 /* SpaceWeatherViewController.swift */,
+				D19A5AC12DA111160045A388 /* SolarActivityViewController.swift */,
+				D19A5AC32DA111310045A388 /* LiveStatusViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		D19A5AD92DA2A3C50045A388 /* GravityCalc */ = {
+			isa = PBXGroup;
+			children = (
+				D19A5AD62DA2934F0045A388 /* GravitationalCalculatorViewController.swift */,
+				D19A5ADA2DA2A3E00045A388 /* CalculationResultViewController.swift */,
+				D19A5ADC2DA2A4090045A388 /* CalculationsViewController.swift */,
+			);
+			path = GravityCalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D103C8152D9FEFB6003F3649 /* Cosmolot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D103C82D2D9FEFB8003F3649 /* Build configuration list for PBXNativeTarget "Cosmolot" */;
+			buildPhases = (
+				D103C8122D9FEFB6003F3649 /* Sources */,
+				D103C8132D9FEFB6003F3649 /* Frameworks */,
+				D103C8142D9FEFB6003F3649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmolot;
+			packageProductDependencies = (
+				D103C8D92D9FF75C003F3649 /* IQKeyboardManagerSwift */,
+				D103C8DF2DA00D63003F3649 /* SnapKit */,
+			);
+			productName = Cosmolot;
+			productReference = D103C8162D9FEFB6003F3649 /* Cosmolot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D103C80E2D9FEFB6003F3649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D103C8152D9FEFB6003F3649 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D103C8112D9FEFB6003F3649 /* Build configuration list for PBXProject "Cosmolot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D103C80D2D9FEFB6003F3649;
+			packageReferences = (
+				D103C8D82D9FF75C003F3649 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				D103C8DE2DA00D63003F3649 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = D103C8172D9FEFB6003F3649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D103C8152D9FEFB6003F3649 /* Cosmolot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D103C8142D9FEFB6003F3649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D103C8292D9FEFB8003F3649 /* LaunchScreen.storyboard in Resources */,
+				D103C8CB2D9FF0CC003F3649 /* Inter-MediumItalic.otf in Resources */,
+				D103C8CC2D9FF0CC003F3649 /* Inter-Black.otf in Resources */,
+				D103C8C52D9FF0CC003F3649 /* Inter-Light.otf in Resources */,
+				D103C8D22D9FF0CC003F3649 /* Inter-ExtraBoldItalic.otf in Resources */,
+				D103C8C12D9FF0CC003F3649 /* Inter-Regular.otf in Resources */,
+				D103C8D02D9FF0CC003F3649 /* Inter-ExtraLight.otf in Resources */,
+				D103C8D42D9FF0CC003F3649 /* Inter-LightItalic.otf in Resources */,
+				D103C8C92D9FF0CC003F3649 /* Inter-SemiBold.otf in Resources */,
+				D103C8C32D9FF0CC003F3649 /* Inter-SemiBoldItalic.otf in Resources */,
+				D103C8C02D9FF0CC003F3649 /* Inter-Bold.otf in Resources */,
+				D103C8C62D9FF0CC003F3649 /* Inter-V.ttf in Resources */,
+				D103C8CA2D9FF0CC003F3649 /* Inter-BlackItalic.otf in Resources */,
+				D103C8CF2D9FF0CC003F3649 /* Inter-ThinItalic.otf in Resources */,
+				D103C8CD2D9FF0CC003F3649 /* Inter-Italic.otf in Resources */,
+				D103C8C82D9FF0CC003F3649 /* Inter-Medium.otf in Resources */,
+				D103C8C72D9FF0CC003F3649 /* Inter-ExtraLightItalic.otf in Resources */,
+				D103C8D32D9FF0CC003F3649 /* Inter-BoldItalic.otf in Resources */,
+				D103C8CE2D9FF0CC003F3649 /* Inter-ExtraBold.otf in Resources */,
+				D103C8262D9FEFB8003F3649 /* Assets.xcassets in Resources */,
+				D103C8212D9FEFB6003F3649 /* Main.storyboard in Resources */,
+				D103C8C42D9FF0CC003F3649 /* Inter-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D103C8122D9FEFB6003F3649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D194C0832DA40F9300C60476 /* AstronomicalCalculatorViewController.swift in Sources */,
+				D19A5AD72DA2934F0045A388 /* GravitationalCalculatorViewController.swift in Sources */,
+				D19A5AC42DA111310045A388 /* LiveStatusViewController.swift in Sources */,
+				D103C81E2D9FEFB6003F3649 /* InitialScreenViewController.swift in Sources */,
+				D103C8242D9FEFB6003F3649 /* Cosmolot.xcdatamodeld in Sources */,
+				D19A5AC02DA104CC0045A388 /* SpaceWeatherViewController.swift in Sources */,
+				D103C81A2D9FEFB6003F3649 /* AppDelegate.swift in Sources */,
+				D19A5ABE2DA066AB0045A388 /* SolarMapViewController.swift in Sources */,
+				D1ADD4EA2DA39C900075046B /* SpaceTimeDetailsViewController.swift in Sources */,
+				D194C0872DA4114800C60476 /* VelocityResultViewController.swift in Sources */,
+				D103C8E42DA015D0003F3649 /* DetailsScreenViewController.swift in Sources */,
+				D19A5ADD2DA2A4090045A388 /* CalculationsViewController.swift in Sources */,
+				D1ADD4E82DA39C170075046B /* SpaceTimeListViewController.swift in Sources */,
+				D103C8DD2DA0083F003F3649 /* Planet.swift in Sources */,
+				D19A5AC22DA111160045A388 /* SolarActivityViewController.swift in Sources */,
+				D103C8D72D9FF6A5003F3649 /* AppColors.swift in Sources */,
+				D194C0852DA4109D00C60476 /* VelocityCalculationViewController.swift in Sources */,
+				D103C8E22DA014B9003F3649 /* UIButton + Ext.swift in Sources */,
+				D19A5ADB2DA2A3E00045A388 /* CalculationResultViewController.swift in Sources */,
+				D103C81C2D9FEFB6003F3649 /* SceneDelegate.swift in Sources */,
+				D19A5AC62DA11A150045A388 /* CosmosWeather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D103C81F2D9FEFB6003F3649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D103C8202D9FEFB6003F3649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D103C8272D9FEFB8003F3649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D103C8282D9FEFB8003F3649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D103C82B2D9FEFB8003F3649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D103C82C2D9FEFB8003F3649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D103C82E2D9FEFB8003F3649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cosmolot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cosmolo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cosmos.bnuq.thaniskqz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D103C82F2D9FEFB8003F3649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F993U8JD2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cosmolot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cosmolo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.Cosmolot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D103C8112D9FEFB6003F3649 /* Build configuration list for PBXProject "Cosmolot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103C82B2D9FEFB8003F3649 /* Debug */,
+				D103C82C2D9FEFB8003F3649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D103C82D2D9FEFB8003F3649 /* Build configuration list for PBXNativeTarget "Cosmolot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D103C82E2D9FEFB8003F3649 /* Debug */,
+				D103C82F2D9FEFB8003F3649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D103C8D82D9FF75C003F3649 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+		D103C8DE2DA00D63003F3649 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D103C8D92D9FF75C003F3649 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D103C8D82D9FF75C003F3649 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		D103C8DF2DA00D63003F3649 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D103C8DE2DA00D63003F3649 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D103C8222D9FEFB6003F3649 /* Cosmolot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D103C8232D9FEFB6003F3649 /* Cosmolot.xcdatamodel */,
+			);
+			currentVersion = D103C8232D9FEFB6003F3649 /* Cosmolot.xcdatamodel */;
+			path = Cosmolot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D103C80E2D9FEFB6003F3649 /* Project object */;
+}
